@@ -64,7 +64,7 @@ kable(mtcars)
 
 
 ```{r, echo=FALSE, eval=TRUE, results='asis'}
-data("mtcars")
+
 
 summary(lm(mpg ~ carb, mtcars))
 ```
